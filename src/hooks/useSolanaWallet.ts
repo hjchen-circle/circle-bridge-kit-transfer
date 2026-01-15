@@ -23,6 +23,7 @@ import {
 } from "@circle-fin/adapter-solana";
 
 declare global {
+  // eslint-disable-next-line no-unused-vars
   interface Window {
     solana?: any;
   }
